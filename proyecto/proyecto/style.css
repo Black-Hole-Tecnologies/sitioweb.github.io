@@ -6,8 +6,8 @@
 
     body {
       font-family: 'Segoe UI', sans-serif;
-      color: #FFBF78;
-      background: #4B352A;
+      color: #0d4645;
+      background: #d3dfdf;
       line-height: 1.6;
     }
 
@@ -16,7 +16,18 @@
       justify-content: space-between;
       align-items: center;
       padding: 1rem 2rem;
-      border-bottom: 1px solid #eee;
+      border-bottom: 2px solid #4b4b4b;
+    }
+
+    header img {
+      width: 90px;
+      height: 70px;
+      border-radius: 20%;
+    }
+
+    header div {
+      padding-right: 62%;
+      font-size: 30px;
     }
 
     nav a {
@@ -24,19 +35,17 @@
       text-decoration: none;
       color: black;
       font-weight: 500;
-    }
-
-    .formulario {
-      padding: 4rem 2rem;
-      text-align: center;
-      color: black;
-      background-color: #1f53c5;
+      font-size: 20px;
     }
 
     .section {
       padding: 4rem 2rem;
       text-align: center;
-      color: black;
+      color: #0a6161;
+    }
+
+    .section p {
+      font-size: 19px;
     }
 
     .section h2 {
@@ -53,9 +62,10 @@
 
     .card {
       padding: 1.5rem;
-      border: 1px solid #eee;
+      border: 1px solid #000000;
       border-radius: 8px;
-      background: #CA7842;
+      background: #0d4645;
+      color: #81b3b4;
     }
 
     .card img {
@@ -70,10 +80,10 @@
       display: inline-block;
       margin-top: 1.5rem;
       padding: 0.75rem 1.5rem;
-      border: 1px solid #aaa;
+      border: 1px solid #000000;
       border-radius: 4px;
       text-decoration: none;
-      color: white;
+      color: rgb(0, 0, 0);
       font-weight: 500;
     }
 
@@ -81,7 +91,7 @@
       text-align: center;
       padding: 2rem;
       font-size: 0.9rem;
-      color: #aaa;
+      color: #5e5e5e;
     }
 
     .form-register {
@@ -139,3 +149,4 @@
   margin: 16px 0;
   font-size: 16px;
 }
+
